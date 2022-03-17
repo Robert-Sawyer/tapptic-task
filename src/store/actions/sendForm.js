@@ -25,7 +25,7 @@ export const sendForm = (data) => {
     return dispatch => {
         dispatch(sendFormStart());
 
-        axios.post('https://someendpoint.free.beeceptor.com/user', data)
+        axios.post('https://someendpoint.free.beeceptor.com/', data)
             .then(response => {
                 dispatch(sendFormSuccess(response?.data?.status));
             })

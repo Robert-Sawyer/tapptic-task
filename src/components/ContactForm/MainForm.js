@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {connect, useSelector, useDispatch} from 'react-redux';
+import {useSelector, useDispatch} from 'react-redux';
 import {Redirect} from 'react-router-dom';
 import axios from '../../axios-orders';
 import * as actions from '../../store/actions/index';
