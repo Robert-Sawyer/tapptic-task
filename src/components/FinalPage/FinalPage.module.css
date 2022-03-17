@@ -1,0 +1,25 @@
+.EndingInfo {
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    font-family: Jokerman, sans-serif;
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;;
+}
+
+.GoBackLink {
+    text-decoration: none;
+    font-family: Jokerman, sans-serif;
+    padding: 10px 5px;
+    border: 1px solid black;
+    background-color: #faebd7;
+    color: #008000;
+}
